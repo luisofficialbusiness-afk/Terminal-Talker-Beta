@@ -9,7 +9,7 @@ body { margin: 0; font-family: monospace; display: flex; height: 100vh; }
 .terminal-msg { margin-bottom: 5px; }
 .badge { font-weight: bold; color: yellow; margin-right: 5px; }
 .hidden { display: none; }
-
+ 
 /* Themes */
 body.classic { background: black; color: #0f0; }
 body.matrix { background: black; color: #0f0; }
