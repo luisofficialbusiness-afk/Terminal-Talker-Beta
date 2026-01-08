@@ -1,0 +1,21 @@
+/* Terminal and Sidebar */
+body { margin: 0; font-family: monospace; display: flex; height: 100vh; }
+#sidebar { width: 200px; background: #111; color: #0f0; padding: 10px; display: flex; flex-direction: column; }
+#sidebar button, #sidebar a { margin: 5px 0; padding: 5px; background: #222; color: #0f0; border: none; cursor: pointer; text-align: left; }
+#sidebar a { text-decoration: none; }
+#terminal-container { flex: 1; padding: 10px; display: flex; flex-direction: column; background: black; color: #0f0; }
+#messages { flex: 1; overflow-y: auto; }
+#terminal-input { padding: 10px; border: 1px solid #0f0; background: #111; color: #0f0; }
+.terminal-msg { margin-bottom: 5px; }
+.badge { font-weight: bold; color: yellow; margin-right: 5px; }
+.hidden { display: none; }
+
+/* Themes */
+body.classic { background: black; color: #0f0; }
+body.matrix { background: black; color: #0f0; }
+body.cyberpunk { background: #1a001a; color: #ff00ff; }
+body.ocean { background: #001a33; color: #00ffff; }
+body.neon { background: black; color: #39ff14; text-shadow: 0 0 5px #39ff14; }
+
+/* Credits */
+#credits { position: absolute; top: 20%; left: 25%; width: 50%; background: #111; border: 2px solid #0f0; padding: 20px; }
