@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terminal Talker V1</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body class="classic">
+  <div id="sidebar">
+    <h2>Terminal Talker</h2>
+    <button onclick="setTheme('classic')">Classic</button>
+    <button onclick="setTheme('matrix')">Matrix</button>
+    <button onclick="setTheme('cyberpunk')">Cyberpunk</button>
+    <button onclick="setTheme('ocean')">Ocean</button>
+    <button onclick="setTheme('neon')">Neon</button>
+    <a href="https://discord.gg/kt4ySqjpbs" target="_blank">Discord</a>
+    <button onclick="showCredits()">Credits</button>
+  </div>
+
+  <div id="terminal-container">
+    <div id="messages"></div>
+    <div id="typing-indicator" class="hidden">Someone is typing...</div>
+    <input type="text" id="terminal-input" placeholder="Type here...">
+    <div id="credits" class="hidden">
+      <h3>Credits</h3>
+      <p>Developed by Luis Cruz</p>
+      <p>Beta testers: [BETA]</p>
+      <button onclick="hideCredits()">Close</button>
+    </div>
+  </div>
+
+<script src="/script.js"></script>
+</body>
+</html>
